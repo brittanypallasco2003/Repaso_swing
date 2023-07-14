@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="VentanaMain">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="8f356" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Carrera"/>
+        </properties>
+      </component>
+      <component id="f444f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nombre"/>
+        </properties>
+      </component>
+      <component id="cd8c5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Grupo"/>
+        </properties>
+      </component>
+      <component id="d82c2" class="javax.swing.JTextField" binding="inputName">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="eb7d3" class="javax.swing.JComboBox" binding="comboBoxCarrera">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Progra"/>
+            <item value="Ventas"/>
+            <item value="Maquinas"/>
+          </model>
+        </properties>
+      </component>
+      <component id="4fe19" class="javax.swing.JComboBox" binding="comboBoxGrupo">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="101"/>
+            <item value="102"/>
+            <item value="103"/>
+            <item value="104"/>
+            <item value="105"/>
+            <item value="106"/>
+            <item value="201"/>
+            <item value="202"/>
+            <item value="203"/>
+            <item value="204"/>
+            <item value="205"/>
+            <item value="206"/>
+            <item value="301"/>
+            <item value="102"/>
+            <item value="303"/>
+            <item value="304"/>
+            <item value="305"/>
+            <item value="306"/>
+          </model>
+        </properties>
+      </component>
+      <component id="b2e52" class="javax.swing.JComboBox" binding="comboBoxSemestre">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Primero"/>
+            <item value="Segundo"/>
+            <item value="Quinto"/>
+          </model>
+        </properties>
+      </component>
+      <component id="9041e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Semestre"/>
+        </properties>
+      </component>
+      <component id="34309" class="javax.swing.JSpinner" binding="spinnerPromedio">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <editor value=""/>
+          <enabled value="true"/>
+          <inheritsPopupMenu value="false"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="4567b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Promedio"/>
+        </properties>
+      </component>
+      <component id="79f09" class="javax.swing.JButton" binding="borrarButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="4" height="4"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <text value="Borrar"/>
+        </properties>
+      </component>
+      <component id="f7c4e" class="javax.swing.JTable" binding="registrarAlumnosTable">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoCreateRowSorter value="false"/>
+          <background color="-9932545"/>
+          <foreground color="-1773067"/>
+          <gridColor color="-1773067"/>
+          <selectionBackground color="-12828863"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="17e1" class="javax.swing.JButton" binding="agregarButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Agregar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
